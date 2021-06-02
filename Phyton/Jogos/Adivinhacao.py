@@ -18,8 +18,8 @@ while True:
        # sleep(0.5)
         print(f'Tente novamente ! O computador jogou {computador}')
         if jogador < computador:
-            print('Número maior')
+            print('Número maior que esperado')
         else:
-            print('Numero menor')
+            print('Numero menor que esperado')
 final()
 
