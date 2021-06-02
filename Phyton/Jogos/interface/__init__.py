@@ -1,8 +1,8 @@
 def cabecalho(msg=True):
-    print('\033[31;1mBem vindo ao jogo de Adivinhação\033[m')
+    print('\033[32;1mBem vindo ao jogo de Adivinhação\033[m')
     return msg
 
 
 def final(msg=True):
-    print('\033[32mPARABÉNS !!!')
+    print('\033[33mPARABÉNS !!!')
     return msg
